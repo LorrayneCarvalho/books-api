@@ -1,0 +1,5 @@
+require('dotenv').config()
+
+const { PORT, NODE_ENV, DB_HOST, DB_PORT, DB_DATABASE, DB_PASSWORD, DB_USERNAME, DB_LOCAL_PORT } = process.env
+
+module.exports = { PORT, NODE_ENV, DB_HOST, DB_PORT, DB_DATABASE, DB_PASSWORD, DB_USERNAME, DB_LOCAL_PORT }
